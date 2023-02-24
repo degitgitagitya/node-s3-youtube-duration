@@ -6,8 +6,7 @@ const ffprobeStatic = require('ffprobe-static')
 
 const { promisify } = require('util')
 
-const url =
-    'https://mydigilearn-dev.s3.ap-southeast-3.amazonaws.com/k9Wx03HWth2bfdzO2TY8/content/videos/video2023/2/2023224215214.mp4'
+const url = ''
 
 async function main() {
     const finishedDownload = promisify(stream.finished)
